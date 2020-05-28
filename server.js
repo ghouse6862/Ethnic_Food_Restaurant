@@ -4,6 +4,7 @@ const express = require('express');
 const app = express();
 const products = require('./routes/api/productRoutes');
 const orders = require('./routes/api/orderRoutes');
+const user = require('./routes/api/userRoutes');
 const publicPath = path.join(__dirname, 'client', 'build');
 const port = process.env.PORT || 3000;
 
@@ -14,6 +15,7 @@ mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlPar
 app.use(express.static(publicPath));
 app.use(express.json());
 
+app.use('/user', user);
 app.use('/products', products);
 app.use('/orders', orders);
 
