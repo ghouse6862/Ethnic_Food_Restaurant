@@ -18,8 +18,8 @@ app.get('*', (req, res) => {
 app.use(express.json());
 
 app.use('/user', require('./routes/api/userRoutes'));
-app.use('/products', require('./routes/api/productRoutes'));
-app.use('/orders', require('./routes/api/orderRoutes'));
+//app.use('/products', require('./routes/api/productRoutes'));
+//app.use('/orders', require('./routes/api/orderRoutes'));
 
 
 app.listen(port, () => {
