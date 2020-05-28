@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const products = require('./routes/api/productRoutes');
 const orders = require('./routes/api/orderRoutes');
-const user = require('./routes/api/userRoutes');
+//const user = require('./routes/api/userRoutes');
 const publicPath = path.join(__dirname, 'client', 'build');
 const port = process.env.PORT || 3000;
 
