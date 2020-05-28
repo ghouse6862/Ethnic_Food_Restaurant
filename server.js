@@ -12,7 +12,7 @@ mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlPar
 
 app.use(express.static(publicPath));
 
-app.use('/user', user);
+//app.use('/user', user);
 
 app.get('*', (req, res) => {
    res.sendFile(path.join(publicPath, 'index.html'));
