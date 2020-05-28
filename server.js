@@ -15,7 +15,7 @@ mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlPar
 app.use(express.static(publicPath));
 app.use(express.json());
 
-app.use('/user', user);
+//app.use('/user', user);
 app.use('/products', products);
 app.use('/orders', orders);
 
