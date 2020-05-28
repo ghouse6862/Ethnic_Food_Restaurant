@@ -5,9 +5,9 @@ const app = express();
 const publicPath = path.join(__dirname, 'client', 'build');
 const port = process.env.PORT || 3000;
 
-mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true})
-    .then(() => console.log("database connected"))
-    .catch(err => console.log(err));
+// mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true})
+//     .then(() => console.log("database connected"))
+//     .catch(err => console.log(err));
 
 app.use(express.static(publicPath));
 
