@@ -22,32 +22,9 @@ function App() {
   }, []);
   
   return (
-    <Router>
-     <div className="App">
-     <Route exact path='/' render={ () => (
-       <React.Fragment>
-         <AppNavbar />
-         <SlideDiv />
-         <About />
-         <Contact />
-       </React.Fragment> 
-     )} />
-         <Route path="/Menu" render={ () => (
-           <React.Fragment>
-             <AppNavbar />
-             <Menu />
-             <Contact /> 
-           </React.Fragment>
-         )} />
-         <Route path="/Orders" render={ () => (
-           <React.Fragment>
-             <AppNavbar />
-             <MyOrders />
-             <Contact /> 
-           </React.Fragment>
-         )} />       
-     </div>
-   </Router>
+    <div>
+      Hello
+    </div>
 
   );
 }
