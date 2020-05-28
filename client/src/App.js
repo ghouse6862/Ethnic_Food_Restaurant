@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppNavbar from './components/AppNavbar';
+import SlideDiv from './components/SlideDiv';
 import Menu from './components/Menu';
 import MyOrders from './components/MyOrders';
 import About from './components/About';
@@ -14,7 +15,8 @@ function App() {
   
   return (
     <div>
-      <h4>Hello</h4>
+      <About />
+      <Contact />
     </div>
 
   );
