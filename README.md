@@ -26,10 +26,10 @@ isDeleted: This field is used to implement soft-delete.<br />
 
 --> <strong>Orders:</strong> This collection is used to store all the orders placed by the users. It consists of the following fields:<br />
 CustomerID: It is used to identify the user who placed the order.<br />
-Items: It consists of the array of information about the items placed as the order.
-orderType: This field specifies whether the user wants to place the order for dine-in or pick-up.  
-bookingTime: stores the time at which order was placed.  
-totalBill: stores the total amount of the order.
+Items: It consists of the array of information about the items placed as the order.<br />
+orderType: This field specifies whether the user wants to place the order for dine-in or pick-up.<br />  
+bookingTime: stores the time at which order was placed.<br />  
+totalBill: stores the total amount of the order.<br />
 
 ## Languages/frameworks:
 The following languages/frameworks were used in the project:
