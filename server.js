@@ -8,6 +8,7 @@ const user = require('./routes/api/userRoutes');
 const publicPath = path.join(__dirname, 'client', 'build');
 const port = process.env.PORT || 3000;
 
+//connect to database
 mongoose.connect(process.env.CONNECT_URL,{useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true})
      .then(() => console.log("database connected"))
      .catch(err => console.log(err));
