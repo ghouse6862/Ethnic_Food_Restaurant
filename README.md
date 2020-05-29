@@ -7,8 +7,7 @@ This project was done as part of my CS6314 Web Programming Languages course
 3. Also provided the admin functionalities where the administrator can log in with an authorized account and can insert, update, or delete the food items.
 
 ## Database Design:
-The following collections were created:
-1. Users: This collection is used to store information about all the registered users. It consists of the following fields:
+The following collections were created:                                                                                       1. Users: This collection is used to store information about all the registered users. It consists of the following fields:
   1.1 name: Stores the name of the user
   1.2 email: Stores the email id of the user
   1.3 phnno: Stores the phone number of the user
