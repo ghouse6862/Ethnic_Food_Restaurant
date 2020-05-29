@@ -1,5 +1,5 @@
 # Ethnic_Food_Restaurant
-This project was done as part of my CS6314 Web Programming Languages course
+This project was done as part of my CS6314 Web Programming Languages course. See it in action at https://lit-sea-51053.herokuapp.com/
 
 ## Project Description:
 1. Implemented a UI where a user can log in, view, and place orders for food items.
