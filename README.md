@@ -8,33 +8,9 @@ This project was done as part of my CS6314 Web Programming Languages course
 
 ## Database Design:
 The following collections were created:<br />                                                                                  1. Users: This collection is used to store information about all the registered users. It consists of the following fields:
-  1.1 name: Stores the name of the user <br />
-  1.2 email: Stores the email id of the user<br />  
-  1.3 phnno: Stores the phone number of the user<br />  
-  1.4 password: Stores the hashed password of the user<br />  
-  1.5 isAdmin: Stores boolean value to indicate whether a user is admin or not.<br />  
-  1.6 currentToken: Stores the current authentication token of the user if is logged in otherwise stores null.<br />  
-  
-2. Products: This collection is used to store information about all the products available in the restaurant. It consists of the following fields:<br />  
-  2.1 productName: Stores the name of the product.<br />  
-  2.2 description: Stores the description of the product.<br />  
-  2.3 category: Stores information about the category to which the product belongs. <br />  
-  2.4. price: Stores the price of the product.<br />  
-  2.5. qty: Stores the quantity of product available in the inventory.<br />  
-  2.6 image: Stores the image of the product<br />  
-  2.7 isDeleted: This field is used to implement soft-delete.<br />  
-  
-3. Orders: This collection is used to store all the orders placed by the users. It consists of the following fields:<br />  
-  3.1 CustomerID: It is used to identify the user who placed the order. <br />  
-  3.2 Items: It consists of the array of information about the items placed as the order. <br />  
-  3.3 orderType: This field specifies whether the user wants to place the order for dine-in or
-  pick-up. <br />  
-  3.4 bookingTime: stores the time at which order was placed. <br />  
-  3.5 totalBill: stores the total amount of the order. <br />  
-  
-## Languages/frameworks:
-The following languages/frameworks were used in the project: <br />  
-
-Front-end: HTML, CSS, JavaScript, React.js  <br />  
-Back-end: Node.js, Express.js <br />  
-Database: MongoDB <br />  
+1.1 name: Stores the name of the user <br />
+1.2 email: Stores the email id of the user<br /> 
+1.3 phnno: Stores the phone number of the user<br /> 
+1.4 password: Stores the hashed password of the user<br /> 
+1.5 isAdmin: Stores boolean value to indicate whether a user is admin or not.<br />  
+1.6 currentToken: Stores the current authentication token of the user if is logged in otherwise stores null.<br />  
