@@ -17,7 +17,7 @@ The following collections were created:<br />                                   
 
 2. <strong>Products:</strong> This collection is used to store information about all the products available in the restaurant. It consists of the following fields:<br /> 
 2.1 productName: Stores the name of the product.<br /> 
-2.2 description: Stores the description of the product.<br />  
+2.2 description: Stores the description of the product.
 2.3 category: Stores information about the category to which the product belongs.<br />
 2.4. price: Stores the price of the product.<br />  
 2.5. qty: Stores the quantity of product available in the inventory.<br /> 
