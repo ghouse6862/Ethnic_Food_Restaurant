@@ -5,7 +5,7 @@ const {Users} = require('../../Schemas/Users');
 const {Products} = require('../../Schemas/Products');
 
 // @route   GET /orders
-// @desc    get all the orders of the user or customer
+// @desc    get all the orders of the user
 // @access  Logged in User
 router.get('/', auth ,async (req, res) => {
 

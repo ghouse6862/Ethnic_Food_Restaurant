@@ -1,4 +1,4 @@
-// All required Imports
+//Imports
 const mongoose = require('mongoose');
 
 //Create Orders Schema

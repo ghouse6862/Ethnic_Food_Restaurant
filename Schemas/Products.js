@@ -1,7 +1,7 @@
 //Imports
 const mongoose = require('mongoose');
 
-//Create Food Products Schema
+//Food Products Schema
 const productsSchema = new mongoose.Schema({
     productName : {
         type : String,

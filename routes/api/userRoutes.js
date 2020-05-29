@@ -6,7 +6,7 @@ const auth = require('../../middleware/auth');
 const {Users} = require('../../Schemas/Users');
 
 // @route   POST /user/register
-// @desc    SignUp new user or customer
+// @desc    SignUp new user
 // @access  Public 
 router.post('/register',async (req, res) => {
     const {name, email, phnno, password} = req.body;

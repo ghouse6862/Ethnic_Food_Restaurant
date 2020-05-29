@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
 
-//create Users Schema -- stores customer/admin info
+//create Users Schema
 const usersSchema = new mongoose.Schema({
     name : {
         type : String,
