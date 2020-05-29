@@ -12,5 +12,5 @@ The following collections were created:<br />                                   
 1.2 email: Stores the email id of the user<br /> 
 1.3 phnno: Stores the phone number of the user<br /> 
 1.4 password: Stores the hashed password of the user<br /> 
-1.5 isAdmin: Stores boolean value to indicate whether a user is admin or not.<br />  
+1.5 isAdmin: Stores boolean value to indicate whether a user is admin or not.
 1.6 currentToken: Stores the current authentication token of the user if is logged in otherwise stores null.<br />  
