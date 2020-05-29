@@ -21,7 +21,7 @@ description: Stores the description of the product.<br />
 category: Stores information about the category to which the product belongs.<br />
 price: Stores the price of the product. 
 qty: Stores the quantity of product available in the inventory.<br /> 
-image: Stores the image of the product<br />  
+image: Stores the image of the product. 
 isDeleted: This field is used to implement soft-delete.<br />  
 
 --> <strong>Orders:</strong> This collection is used to store all the orders placed by the users. It consists of the following fields:
