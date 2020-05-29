@@ -18,11 +18,18 @@ currentToken: Stores the current authentication token of the user if is logged i
 --> <strong>Products:</strong> This collection is used to store information about all the products available in the restaurant. It consists of the following fields:<br /> 
 productName: Stores the name of the product.<br /> 
 description: Stores the description of the product.
-2.3 category: Stores information about the category to which the product belongs.<br />
-2.4. price: Stores the price of the product.<br />  
-2.5. qty: Stores the quantity of product available in the inventory.<br /> 
-2.6 image: Stores the image of the product<br />  
-2.7 isDeleted: This field is used to implement soft-delete.<br />  
+category: Stores information about the category to which the product belongs.<br />
+price: Stores the price of the product.<br />  
+qty: Stores the quantity of product available in the inventory.<br /> 
+image: Stores the image of the product<br />  
+isDeleted: This field is used to implement soft-delete.<br />  
+
+--> <strong>Orders:</strong> This collection is used to store all the orders placed by the users. It consists of the following fields:<br />  
+CustomerID: It is used to identify the user who placed the order. <br />  
+Items: It consists of the array of information about the items placed as the order. <br />  
+orderType: This field specifies whether the user wants to place the order for dine-in or pick-up. <br />  
+bookingTime: stores the time at which order was placed. <br />  
+totalBill: stores the total amount of the order. <br />  
 
 ## Languages/frameworks:
 The following languages/frameworks were used in the project: <br />  
