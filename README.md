@@ -23,14 +23,7 @@ The following collections were created:<br />                                   
 2.5. qty: Stores the quantity of product available in the inventory.<br /> 
 2.6 image: Stores the image of the product<br />  
 2.7 isDeleted: This field is used to implement soft-delete.<br />  
-  
-3. <strong>Orders:</strong> This collection is used to store all the orders placed by the users. It consists of the following fields:<br />  
-3.1 CustomerID: It is used to identify the user who placed the order. <br />  
-3.2 Items: It consists of the array of information about the items placed as the order. <br />  
-3.3 orderType: This field specifies whether the user wants to place the order for dine-in or pick-up. <br />  
-3.4 bookingTime: stores the time at which order was placed. <br />  
-3.5 totalBill: stores the total amount of the order. <br />  
-  
+
 ## Languages/frameworks:
 The following languages/frameworks were used in the project: <br />  
 
