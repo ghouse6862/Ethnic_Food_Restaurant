@@ -59,7 +59,7 @@ export default function MenuItem() {
                                 <Row className="mb-2">
                                 <Col sm="6" className="mb-2">  
                                 <Card inverse style={{ backgroundColor: '#99651b', borderColor: '#333'}}>
-                                <CardImg top width="100%" src={"http://localhost:5000/products/"+item._id+"/images"} alt={item.productName} />
+                                <CardImg top width="100%" src={"/products/"+item._id+"/images"} alt={item.productName} />
                                 <CardBody style={{color: '#FFDF00'}}>  
                                     <CardTitle>{item.productName}</CardTitle>
                                     <CardSubtitle>{item.category}</CardSubtitle>
