@@ -15,6 +15,7 @@ function App() {
   
   return (
     <div>
+      <AppNavbar />
       <SlideDiv />
       <About />
       <Contact />
