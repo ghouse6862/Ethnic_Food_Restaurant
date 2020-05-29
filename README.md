@@ -17,7 +17,7 @@ currentToken: Stores the current authentication token of the user if is logged i
 
 --> <strong>Products:</strong> This collection is used to store information about all the products available in the restaurant. It consists of the following fields:<br /> 
 productName: Stores the name of the product.<br /> 
-description: Stores the description of the product.
+description: Stores the description of the product.<br />
 category: Stores information about the category to which the product belongs.<br />
 price: Stores the price of the product.<br />  
 qty: Stores the quantity of product available in the inventory.<br /> 
