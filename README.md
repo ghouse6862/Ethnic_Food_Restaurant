@@ -8,7 +8,7 @@ This project was done as part of my CS6314 Web Programming Languages course
 
 ## Database Design:
 The following collections were created:<br />                                                                                  1. Users: This collection is used to store information about all the registered users. It consists of the following fields:
-1.1 name: Stores the name of the user <br />
+  1.1 name: Stores the name of the user <br />
 1.2 email: Stores the email id of the user<br /> 
 1.3 phnno: Stores the phone number of the user<br /> 
 1.4 password: Stores the hashed password of the user<br /> 
