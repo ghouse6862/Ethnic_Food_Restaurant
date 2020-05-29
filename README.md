@@ -39,5 +39,9 @@ Back-end: Node.js, Express.js<br />
 Database: MongoDB
 
 ## Dependencies:
+1. You need to install node.js and npm.
 
+2. Then navigate to main directory and run npm install to install backend dependencies.
+
+3. Navigate to client directory and run npm install to install frontend dependencies.
 
