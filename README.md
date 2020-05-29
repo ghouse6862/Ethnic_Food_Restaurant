@@ -34,7 +34,7 @@ totalBill: stores the total amount of the order.
 ## Languages/frameworks:
 The following languages/frameworks were used in the project:
 
-Front-end: HTML, CSS, JavaScript, React.js 
+Front-end: HTML, CSS, JavaScript, React.js<br /> 
 Back-end: Node.js, Express.js
 Database: MongoDB
 
