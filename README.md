@@ -38,4 +38,6 @@ Front-end: HTML, CSS, JavaScript, React.js<br />
 Back-end: Node.js, Express.js<br />
 Database: MongoDB
 
+## Dependencies:
+
 
