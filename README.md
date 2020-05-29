@@ -13,8 +13,8 @@ The following collections were created:<br />                                   
 1.3 phnno: Stores the phone number of the user<br /> 
 1.4 password: Stores the hashed password of the user<br /> 
 1.5 isAdmin: Stores boolean value to indicate whether a user is admin or not.<br />
-1.6 currentToken: Stores the current authentication token of the user if is logged in otherwise stores null.<br />  
-  
+1.6 currentToken: Stores the current authentication token of the user if is logged in otherwise stores null.<br /> 
+
 2. <strong>Products:</strong> This collection is used to store information about all the products available in the restaurant. It consists of the following fields:<br /> 
 2.1 productName: Stores the name of the product.<br /> 
 2.2 description: Stores the description of the product.<br />  
