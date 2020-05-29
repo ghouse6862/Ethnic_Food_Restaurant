@@ -19,7 +19,7 @@ currentToken: Stores the current authentication token of the user if is logged i
 productName: Stores the name of the product.<br /> 
 description: Stores the description of the product.<br />
 category: Stores information about the category to which the product belongs.<br />
-price: Stores the price of the product. 
+price: Stores the price of the product.<br /> 
 qty: Stores the quantity of product available in the inventory.<br /> 
 image: Stores the image of the product.<br /> 
 isDeleted: This field is used to implement soft-delete.<br />  
