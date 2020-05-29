@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const {Users} = require('../Schemas/Users');
 
+//authenticate user
 const auth = async (req, res, next) => {
     try {
         //get the token

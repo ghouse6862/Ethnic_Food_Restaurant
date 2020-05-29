@@ -7,7 +7,7 @@ const {Products} = require('../../Schemas/Products');
 
 
 // @route   GET /products?searchTerm=value&category=value&minprice=value&maxprice=value&limit=10&skip=0
-// @desc    return the requested products
+// @desc    return the requested products/food items
 // @access  Public
 router.get('/',(req, res) => {
 
