@@ -45,3 +45,4 @@ Database: MongoDB
 
 3. Navigate to client directory and run npm install to install frontend dependencies.
 
+## Practice
